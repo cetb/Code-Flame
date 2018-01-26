@@ -1,0 +1,9 @@
+{
+    "name": "root/myfm",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {"App\\": "app/"},
+        "files": ["app/config/router.php"]
+    }
+}
