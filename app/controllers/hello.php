@@ -1,10 +1,12 @@
 <?php
 
-namespace app\controllers;
+namespace App\controllers;
 
-class hello{
+class Hello {
 
     function index(){
-
+        echo "<pre>";
+        print_r( get_included_files());
+        die;
     }
 }
